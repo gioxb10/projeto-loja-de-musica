@@ -1,10 +1,17 @@
-# Projeto Loja de Musica
+<h1 align="center"> Projeto Loja de Música </h1>
 <h4 align="center"> 
     :construction:  Projeto em construção  :construction:
 </h4>
 <h1 align="center"> Sistema De Loja de Música </h1>
 <a href="https://imgur.com/dKaOmRU"><img src="https://i.imgur.com/dKaOmRU.png" title="source: imgur.com" /></a>
+
 <h1 align="center"> Descrição do Projeto </h1>
+
+**Projeto em desenvolvimento para disciplina Instrumentação Biomédica Il do curso de Engenharia Biomédica. O GlicoCare é um sistema
+de telemonitoramento domiciliar para a atenção especializada de pessoas acometidas por diabetes mellitus.**
+**O sistema permitirá o monitoramento diário, contínuo e remoto do nível de glicose no sangue (glicemia), possibilitando que familiares,**
+**cuidadores, profissionais da saúde ou o próprio paciente acompanhem o estado clínico do mesmo.**
+
 
 ## :hammer: Funcionalidades do projeto
 
