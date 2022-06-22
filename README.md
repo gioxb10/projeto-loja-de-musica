@@ -1,6 +1,5 @@
 ## Índice 
 
-* [Badges](#badges)
 * [Descrição do Projeto](#descrição-do-projeto)
 * [Status do Projeto](#status-do-Projeto)
 * [Funcionalidades e Demonstração do Projeto](#funcionalidades-e-demonstração-do-projeto)
@@ -33,6 +32,10 @@ de vendas de uma loja de música fictícia.**
 
 
 ## Status do Projeto
+
+* Utilizando Imgur para hospedagem de imagem de capa e de demonstração.
+* Usando Shields.io para possíveis Badges para o projeto.
+
 
 ## Funcionalidades e Demonstração do Projeto
 
