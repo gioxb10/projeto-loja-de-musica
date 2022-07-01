@@ -27,7 +27,7 @@
      <item>
       <widget class="QTabWidget" name="tabWidget">
        <property name="currentIndex">
-        <number>0</number>
+        <number>1</number>
        </property>
        <property name="tabsClosable">
         <bool>false</bool>
@@ -71,25 +71,6 @@
           <bool>true</bool>
          </property>
         </widget>
-        <widget class="QLabel" name="label_2">
-         <property name="geometry">
-          <rect>
-           <x>20</x>
-           <y>30</y>
-           <width>211</width>
-           <height>141</height>
-          </rect>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-         <property name="pixmap">
-          <pixmap>../../Downloads/image-removebg-preview (37).png</pixmap>
-         </property>
-         <property name="scaledContents">
-          <bool>true</bool>
-         </property>
-        </widget>
         <widget class="QPushButton" name="pushButton_2">
          <property name="geometry">
           <rect>
@@ -124,9 +105,195 @@
         </widget>
         <zorder>label</zorder>
         <zorder>pushButton</zorder>
-        <zorder>label_2</zorder>
         <zorder>pushButton_2</zorder>
         <zorder>pushButton_3</zorder>
+       </widget>
+       <widget class="QWidget" name="tab_2">
+        <attribute name="title">
+         <string>Clientes</string>
+        </attribute>
+        <widget class="QLabel" name="label_3">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>1021</width>
+           <height>551</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>../../Downloads/press start (1).png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_4">
+         <property name="geometry">
+          <rect>
+           <x>867</x>
+           <y>510</y>
+           <width>131</width>
+           <height>27</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Voltar ao Menu</string>
+         </property>
+        </widget>
+        <widget class="QTableWidget" name="tabela1">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>90</y>
+           <width>1031</width>
+           <height>391</height>
+          </rect>
+         </property>
+         <attribute name="horizontalHeaderCascadingSectionResizes">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="horizontalHeaderDefaultSectionSize">
+          <number>170</number>
+         </attribute>
+         <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="horizontalHeaderStretchLastSection">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="verticalHeaderVisible">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="verticalHeaderStretchLastSection">
+          <bool>true</bool>
+         </attribute>
+         <column>
+          <property name="text">
+           <string>Nome</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Número</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Endereço</string>
+          </property>
+         </column>
+        </widget>
+        <widget class="QLabel" name="label_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>211</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>DejaVu Math TeX Gyre</family>
+           <pointsize>18</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Clientes</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="tab_3">
+        <attribute name="title">
+         <string>Guitarras</string>
+        </attribute>
+        <widget class="QLabel" name="label_4">
+         <property name="geometry">
+          <rect>
+           <x>6</x>
+           <y>0</y>
+           <width>1021</width>
+           <height>551</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>../../Downloads/press start (2).png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_5">
+         <property name="geometry">
+          <rect>
+           <x>877</x>
+           <y>510</y>
+           <width>121</width>
+           <height>27</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Voltar ao Menu</string>
+         </property>
+        </widget>
+        <widget class="QTableWidget" name="tabela2">
+         <property name="geometry">
+          <rect>
+           <x>-5</x>
+           <y>81</y>
+           <width>1031</width>
+           <height>401</height>
+          </rect>
+         </property>
+         <attribute name="horizontalHeaderCascadingSectionResizes">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="horizontalHeaderDefaultSectionSize">
+          <number>260</number>
+         </attribute>
+         <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="horizontalHeaderStretchLastSection">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="verticalHeaderVisible">
+          <bool>false</bool>
+         </attribute>
+         <column>
+          <property name="text">
+           <string>Itens</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Condição</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Valor de Entrada</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Valor</string>
+          </property>
+         </column>
+        </widget>
        </widget>
       </widget>
      </item>
