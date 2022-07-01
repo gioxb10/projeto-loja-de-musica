@@ -23,10 +23,17 @@
 
 **Projeto em desenvolvimento para disciplina Técnicas de Progamação do curso de Engenharia Elétrica do IFPB-JP. O projeto criado é um sistema
 de vendas de uma loja de música fictícia.**
+<<<<<<< HEAD
 **O sistema permitirá o vendedor em questão: cadastrar clientes, verificar disponibilidade de instrumentos, verificar valores de instrumentos, por pesquisa variada(nome, preço, e modelo**
 **, por ser apenas um projeto universitário, não possui todos os elementos necessários para funcionar ativamente em uma loja de verdade.**
 **Por exemplo, um cliente chega a loja de música e pergunta se tem um específico instrumento, o vendedor responde que sim,**
 **porém, ele não tem certeza se realmente aquele instrumento está em estoque, e ele não decorou seu preço. O sistema auxilia ele nessa situação perfeitamente.**
+=======
+*O sistema permitirá o vendedor em questão: cadastrar clientes, verificar disponibilidade de instrumentos, verificar valores de instrumentos, por pesquisa variada(nome, preço, e modelo*
+*, por ser apenas um projeto universitário, não possui todos os elementos necessários para funcionar ativamente em uma loja de verdade.*
+*Por exemplo, um cliente chega a loja de música e pergunta se tem um específico instrumento, o vendedor responde que sim,*
+*porém, ele não tem certeza se realmente aquele instrumento está em estoque, e ele não decorou seu preço. O sistema auxilia ele nessa situação perfeitamente.*
+>>>>>>> d6616112ca34fa594fc86fe69e436e82559bd1c8
 
 <a href="https://imgur.com/e9kfXlI"><img src="https://i.imgur.com/e9kfXlI.gif" title="source: imgur.com" /></a>
 
@@ -44,9 +51,3 @@ de vendas de uma loja de música fictícia.**
 - `Funcionalidade 2a`: descrição da funcionalidade 2a relacionada à funcionalidade 2
 - `Funcionalidade 3`: descrição da funcionalidade 3
 ## Acesso ao projeto
-
-**Indique como é possível baixar ou acessar o código fonte do projeto, seja projeto inicial ou final**
-
-## Abrir e Executar o Projeto
-
-**Apresente as instruções necessárias para abrir e executar o projeto**
