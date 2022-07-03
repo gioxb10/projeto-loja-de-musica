@@ -10,7 +10,7 @@ bool GerenciadorArquivo::salvar_instrumento(Guitarra guitarra)
     std::ofstream arquivo(this->nome_arquivo,std::ios::app);
     if(arquivo.is_open()){
         arquivo << filme.getTitulo() << ",";
-   << std::endl;
+
         arquivo.close();
         return true;
     }

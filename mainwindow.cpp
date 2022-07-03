@@ -7,6 +7,16 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+
+    ui->tabela2->horizontalHeader()->setVisible(true);
+    ui->tabela2->setRowCount(4);
+    QStringList títulos;
+    ui->tabela2->setHorizontalHeaderLabels(títulos);
+    ui->tabela2->verticalHeader()->setSectionResizeMode(QHeaderView::ResizeToContents);
+    ui->tabela2->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
+    ui->tabela2->setEditTriggers(QAbstractItemView::NoEditTriggers);
+    ui->tabela2->setSelectionBehavior(QAbstractItemView::SelectRows);
+    ui->tabela2->verticalHeader()->setVisible(false);
 }
 
 MainWindow::~MainWindow()
