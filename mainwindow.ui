@@ -39,10 +39,10 @@
         <widget class="QPushButton" name="pushButton">
          <property name="geometry">
           <rect>
-           <x>20</x>
-           <y>270</y>
-           <width>181</width>
-           <height>27</height>
+           <x>60</x>
+           <y>230</y>
+           <width>241</width>
+           <height>61</height>
           </rect>
          </property>
          <property name="focusPolicy">
@@ -55,10 +55,10 @@
         <widget class="QPushButton" name="pushButton_2">
          <property name="geometry">
           <rect>
-           <x>20</x>
-           <y>320</y>
-           <width>181</width>
-           <height>27</height>
+           <x>60</x>
+           <y>310</y>
+           <width>241</width>
+           <height>61</height>
           </rect>
          </property>
          <property name="focusPolicy">
@@ -68,20 +68,54 @@
           <string>Guitarras</string>
          </property>
         </widget>
-        <widget class="QPushButton" name="pushButton_3">
+        <widget class="QLabel" name="label_4">
          <property name="geometry">
           <rect>
-           <x>20</x>
-           <y>370</y>
-           <width>181</width>
-           <height>27</height>
+           <x>460</x>
+           <y>220</y>
+           <width>481</width>
+           <height>141</height>
           </rect>
          </property>
-         <property name="focusPolicy">
-          <enum>Qt::WheelFocus</enum>
+         <property name="font">
+          <font>
+           <family>Bitstream Charter</family>
+           <pointsize>36</pointsize>
+           <weight>75</weight>
+           <italic>true</italic>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>ArrowCursor</cursorShape>
+         </property>
+         <property name="mouseTracking">
+          <bool>false</bool>
+         </property>
+         <property name="tabletTracking">
+          <bool>false</bool>
          </property>
          <property name="text">
-          <string>Violões</string>
+          <string>Empório Da Música</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label">
+         <property name="geometry">
+          <rect>
+           <x>780</x>
+           <y>440</y>
+           <width>221</width>
+           <height>101</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>../../Downloads/IntitutoFederal-aplicações-horizontais-02.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
          </property>
         </widget>
        </widget>
@@ -161,6 +195,7 @@
           <font>
            <family>DejaVu Math TeX Gyre</family>
            <pointsize>18</pointsize>
+           <weight>50</weight>
            <italic>false</italic>
            <bold>false</bold>
           </font>
@@ -263,6 +298,28 @@
           <string>Carregar dados</string>
          </property>
         </widget>
+        <widget class="QLabel" name="label_3">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>30</y>
+           <width>211</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>DejaVu Math TeX Gyre</family>
+           <pointsize>18</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Instrumentos</string>
+         </property>
+        </widget>
        </widget>
       </widget>
      </item>
@@ -275,7 +332,7 @@
      <x>0</x>
      <y>0</y>
      <width>1330</width>
-     <height>21</height>
+     <height>24</height>
     </rect>
    </property>
   </widget>

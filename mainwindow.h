@@ -33,6 +33,12 @@ private slots:
 
     void on_tabela1_cellActivated(int row, int column);
 
+    void on_btn_carregardados_clicked();
+
+    void on_btn_carregardadosguita_clicked();
+
+    void on_tabela2_cellActivated(int row, int column);
+
 private:
     Ui::MainWindow *ui;
 };
